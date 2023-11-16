@@ -1,0 +1,18 @@
+{
+  "name": "7_6_cypress_hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ChromeHeadless": "npx cypress run --browser chrome --headless",
+    "ChromeMobile": "npx cypress run --browser chrome --headed --config-file cypress.env.json",
+    "ElectronHeadless": "npx cypress run --browser electron --headless",
+    "ElectronMobile": "npx cypress run --browser electron --headed --config-file cypress.env.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.5.1"
+  }
+}
